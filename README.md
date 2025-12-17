@@ -20,12 +20,6 @@ $ npm run start
 $ npx playwright test
 ```
 
-### Show the test report
-
-```
-$ npx playwright show-report
-```
-
 ### Deployment
 
 ```
