@@ -5,20 +5,24 @@ Grid.js website is built using [Docusaurus 2](https://v2.docusaurus.io/).
 ### Installation
 
 ```
-$ npm install
+$ yarn
 ```
 
 ### Local Development
 
 ```
-$ npm run start
+$ yarn start
 ```
 
-### Run the tests
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
 
 ```
-$ npx playwright test
+$ yarn build
 ```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
